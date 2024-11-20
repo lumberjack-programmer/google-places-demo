@@ -1,0 +1,11 @@
+google:
+  api:
+    key: ${GOOGLE_API_KEY}
+  url:
+    places: https://maps.googleapis.com/maps/api/place/nearbysearch/json
+    details: https://maps.googleapis.com/maps/api/place/details/json
+    photo: https://maps.googleapis.com/maps/api/place/photo
+    autocomplete: https://maps.googleapis.com/maps/api/place/autocomplete/json
+    geocode: https://maps.googleapis.com/maps/api/geocode/json
+spring.application.name:
+  google-places-demo
